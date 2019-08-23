@@ -1,0 +1,132 @@
+body {
+    padding: 0;
+    margin: 0;
+    font-family: serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+h2 {
+    padding-top: 100px;
+}
+
+header {
+    height: 100px;
+    width: 100%;
+    background-color: rgba(63, 127, 211, 0.7);
+    position: fixed;
+    top: 0;
+    z-index: 10;
+}
+
+.header-left {
+    font-size: 30px;
+    float: left;
+    padding-left: 10px;
+}
+
+.header-right {
+    float: right;
+    margin-right: 25px;
+}
+
+.header-right a {
+    line-height: 100px;
+    padding: 0 25px;
+    color: white;
+    display: block;
+    float: left;
+    transition: all 0.5s;
+}
+
+.header-right a:hover {
+    background-color: rgba(104, 85, 85, 0.3);
+}
+
+.menu-icon {
+    color: white;
+    float: right;
+    font-size: 40px;
+    padding: 25px 20px 0px 0px;
+    visibility: hidden;
+}
+
+.top-wrapper {
+    padding: 300px 0 100px 0;
+    background-image: url(background2.png);
+    background-size: cover;
+    color: rgb(255, 255, 255);
+    text-shadow: 3px 3px black;
+    text-align: center;
+}
+
+.top-wrapper h1 {
+    opacity: 0.8;
+    font-size: 70px;
+}
+
+.top-wrapper p {
+    font-size: 30px;
+    text-shadow: 2px 2px black;
+}
+
+.profile-wrapper {
+    padding: 30px 10px 30px 10px;
+    background-color: rgb(199, 200, 223);
+}
+
+.lang-wrapper {
+    padding: 30px 10px 30px 10px;
+    background-color: rgb(192, 206, 231);
+}
+
+
+.lang-icon img {
+    height: 300px;
+    width: 250px;
+}
+
+.sns-wrapper {
+    padding: 30px 10px 30px 10px;
+    background-color: rgb(199, 200, 223);
+}
+
+.twitter-timeline {
+    height: 200px;
+    width: 100px;
+}
+
+.contact-wrapper {
+    padding: 30px 10px 30px 10px;
+    background-color: rgb(192, 206, 231);
+}
+
+.form input {
+    width: 300px;
+    margin-bottom:10px;
+    border: 1px solid;
+    font-size: 18px;
+}
+
+.form textarea {
+    height: 100px;
+    width: 300px;
+    margin-bottom:10px;
+    border: 1px solid;
+    font-size: 18px;
+}
+
+.contact-submit input {
+    width: 150px;
+    text-align: center;
+}
+
+#text-button {
+    display: block;
+    cursor: pointer;
+    width: 500px;
+    text-align: center;
+    border: 1px solid #232323;
+  }
